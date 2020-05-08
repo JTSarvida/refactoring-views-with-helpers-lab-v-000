@@ -6,7 +6,6 @@ class Song < ActiveRecord::Base
   end
 
   def artist_name=(name)
-    artist.name = name
 
   end
 end
